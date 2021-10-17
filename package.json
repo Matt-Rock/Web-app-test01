@@ -1,0 +1,33 @@
+{
+  "name": "web-app-test-01",
+  "version": "1.0.0",
+  "description": "web fullstack app test dev with nodejs reactjs mongodb express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startDev": "nodemon index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt-Rock/Web-app-test01.git"
+  },
+  "author": "Matteo Erazo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matt-Rock/Web-app-test01/issues"
+  },
+  "homepage": "https://github.com/Matt-Rock/Web-app-test01#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
